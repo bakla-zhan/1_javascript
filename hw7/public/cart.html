@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping cart</title>
+    <link rel="stylesheet" href="../src/layout/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="new-arrivals">
+        <div class="container new-arrivals__inside">
+            <h1><a href="#">new arrivals</a></h1>
+            <ul class="bread-crumps">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#" class="bread-crumps__active">New Arrivals</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container main">
+        <section class="container main__title">
+            <div class="main__table-cell-1">
+                <h3 class="">product details</h3>
+            </div>
+            <div class="main__table-cell-2">
+                <h3>unite price</h3>
+            </div>
+            <div class="main__table-cell-3">
+                <h3>quantity</h3>
+            </div>
+            <div class="main__table-cell-4">
+                <h3>shipping</h3>
+            </div>
+            <div class="main__table-cell-5">
+                <h3>subtotal</h3>
+            </div>
+            <div class="main__table-cell-6">
+                <h3>action</h3>
+            </div>
+        </section> <!-- End of main__title -->
+        <article class="container main__content">
+            <div class="main__table-cell-1 main__content-cell-1">
+                <img src="../src/assets/img/car-1.jpg" alt="">
+                <div>
+                    <h3><a href="single.html">mango people t-shirt</a></h3>
+                    <div class="hot-offer__stars main__table-cell-1-stars">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div class="half-star"></div>
+                    </div>
+                    <p><span>Color:</span> Red</p>
+                    <p><span>Size:</span> XXL</p>
+                </div>
+            </div>
+            <div class="main__table-cell-2">
+                $150
+            </div>
+            <div class="main__table-cell-3">
+                2
+            </div>
+            <div class="main__table-cell-4">
+                free
+            </div>
+            <div class="main__table-cell-5">
+                $300
+            </div>
+            <div class="main__table-cell-6">
+                <a href="#"><i class="fas fa-times-circle"></i></a>
+            </div>
+        </article>
+        <article class="container main__content">
+            <div class="main__table-cell-1 main__content-cell-1">
+                <img src="../src/assets/img/car-2.jpg" alt="">
+                <div>
+                    <h3><a href="single.html">mango people t-shirt</a></h3>
+                    <div class="hot-offer__stars main__table-cell-1-stars">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div class="half-star"></div>
+                    </div>
+                    <p><span>Color:</span> Red</p>
+                    <p><span>Size:</span> XXL</p>
+                </div>
+            </div>
+            <div class="main__table-cell-2">
+                $150
+            </div>
+            <div class="main__table-cell-3">
+                2
+            </div>
+            <div class="main__table-cell-4">
+                free
+            </div>
+            <div class="main__table-cell-5">
+                $300
+            </div>
+            <div class="main__table-cell-6">
+                <a href="#"><i class="fas fa-times-circle"></i></a>
+            </div>
+        </article>
+        <article class="container main__content">
+            <div class="main__table-cell-1 main__content-cell-1">
+                <img src="../src/assets/img/car-3.jpg" alt="">
+                <div>
+                    <h3><a href="single.html">mango people t-shirt</a></h3>
+                    <div class="hot-offer__stars main__table-cell-1-stars">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div class="half-star"></div>
+                    </div>
+                    <p><span>Color:</span> Red</p>
+                    <p><span>Size:</span> XXL</p>
+                </div>
+            </div>
+            <div class="main__table-cell-2">
+                $150
+            </div>
+            <div class="main__table-cell-3">
+                2
+            </div>
+            <div class="main__table-cell-4">
+                free
+            </div>
+            <div class="main__table-cell-5">
+                $300
+            </div>
+            <div class="main__table-cell-6">
+                <a href="#"><i class="fas fa-times-circle"></i></a>
+            </div>
+        </article>
+        <div class="cart-buttons">
+            <a href="#">clear shopping cart</a>
+            <a href="#">continue shopping</a>
+        </div>
+        <div class="address-coupon-total">
+            <form class="address-coupon-total-column">
+                <h2>shipping address</h2>
+                <div>
+                    <input type="text" placeholder="Bangladesh" name="city">
+                    <button class="button-city"><i class="fas fa-caret-down"></i></button>
+                </div>
+                <input type="text" placeholder="State" name="state">
+                <input type="text" placeholder="Postcode / Zip" name="postcode">
+                <input type="submit" value="GET A QUOTE">
+            </form>
+            <form class="address-coupon-total-column">
+                <h2>coupon discount</h2>
+                <label for="coupon">Enter your coupon code if you have one</label>
+                <input type="text" id="coupon" placeholder="Coupon">
+                <input type="submit" value="apply coupon">
+            </form>
+            <div class="address-coupon-total-column">
+                <p>sub total <span>$900</span></p>
+                <h3>grand total <span>$900</span></h3>
+                <a href="checkout.html" class="">proceed to checkout</a>
+            </div>
+        </div>
+    </div> <!-- End of main -->
+
+    <script src="../src/components/header.js"></script>
+    <script src="../src/components/footer.js"></script>
+</body>
+
+</html>
